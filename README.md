@@ -38,36 +38,17 @@ Hardware – PCs, Cyclone II , USB flasher
 Developed by:TAMILSELVI P
 RegisterNumber:25017628
 
-
-
-
-module ex2
-
-
-(input wire A,
-
-
-input  wire B,
-
-
-input  wire C,
-
-
-input  wire D,
-
-
-output wire F
-
-
+module boolean (
+    input  wire A,
+    input  wire B,
+    input  wire C,
+    input  wire D,
+    output wire F
 );
 
-
-assign F = (~A & B) | (C & D) | (A & ~D); 
-
-
+assign F = (~A & B) | (C & D) | (A & ~D);
 
 endmodule
-
 
 **RTL realization**
 <img width="1060" height="693" alt="Screenshot (101)" src="https://github.com/user-attachments/assets/d4fb02fb-4110-4b30-8655-c0845532ca80" />
