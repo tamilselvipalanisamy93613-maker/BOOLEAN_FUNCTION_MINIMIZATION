@@ -38,15 +38,21 @@ Hardware – PCs, Cyclone II , USB flasher
 Developed by:TAMILSELVI P
 RegisterNumber:25017628
 module ex2
+
+
 (input wire A,
 
 input  wire B,
 
+
 input  wire C,
+
 
 input  wire D,
 
+
 output wire F
+
 
 );
 assign F = (~A & B) | (C & D) | (A & ~D); 
